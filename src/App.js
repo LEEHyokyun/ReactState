@@ -17,7 +17,13 @@ class App extends React.Component{
     //this.setState(current => ({count : current.count - 1}))
   }
 
+  constructor(props){
+    super(props)
+    console.log("constructor first?")
+  }
+
   render(){
+    console.log("render first?")
     return (
       <>
       <h1>class occurs</h1>
