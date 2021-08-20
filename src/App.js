@@ -26,6 +26,10 @@ class App extends React.Component{
     console.log("Component did mount first?")
   }
 
+  componentDidUpdate(){
+    console.log("Component did update first?")
+  }
+
   render(){
     console.log("render first?")
     return (
