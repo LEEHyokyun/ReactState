@@ -30,6 +30,10 @@ class App extends React.Component{
     console.log("Component did update first?")
   }
 
+  componentWillUnmount(){
+    console.log("Component will unmount first?")
+  }
+
   render(){
     console.log("render first?")
     return (
