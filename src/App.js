@@ -22,6 +22,10 @@ class App extends React.Component{
     console.log("constructor first?")
   }
 
+  componentDidMount(){
+    console.log("Component did mount first?")
+  }
+
   render(){
     console.log("render first?")
     return (
